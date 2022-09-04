@@ -8,3 +8,4 @@
   3. startWord = "first" , word = "firststep" จะได้ "firststep"
   4. startWord = "first" , word = null จะได้ undefined
   5. startWord = "first" , word = undefined จะได้ undefined
+// test สวัสดีครับ 
