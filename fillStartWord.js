@@ -2,24 +2,24 @@ const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
     if(word==null || word==undefined){
-        console.log (undefined)
+        //console.log (undefined)
         return undefined
     }
     /* ยัง งง อยู่ครับผมว่าทำไมต้องใช้ includes เพื่อนสอนยังไม่ค่อยเข้าใจ
     วอนผู้รู้ช่วย comment ทีครับผม */
     else if(word.includes(startWord)){
-    console.log(word)
+    //console.log(word)
     return word
    }
    else{
-    console.log(word=startWord+word)
+    //console.log(word=startWord+word)
     return word=startWord+word
    }
 }
 module.exports = fillStartWord
 
-fillStartWord("1-2565-","helloWorld")
+/*fillStartWord("1-2565-","helloWorld")
 fillStartWord("JS","beginner")
 fillStartWord("first","firststep")
 fillStartWord("first",null)
-fillStartWord("first",undefined)
+fillStartWord("first",undefined)*/
